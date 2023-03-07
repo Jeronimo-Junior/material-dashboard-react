@@ -50,8 +50,8 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "author", accessor: "author", width: "45%", align: "left" },
-      { Header: "function", accessor: "function", align: "left" },
+      { Header: "loja", accessor: "author", width: "45%", align: "left" },
+      { Header: "categoria", accessor: "function", align: "left" },
       { Header: "status", accessor: "status", align: "center" },
       { Header: "employed", accessor: "employed", align: "center" },
       { Header: "action", accessor: "action", align: "center" },
@@ -59,7 +59,7 @@ export default function data() {
 
     rows: [
       {
-        author: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
+        author: <Author image={team2} name="Nome Responsável" email="John Doe" />,
         function: <Job title="Manager" description="Organization" />,
         status: (
           <MDBox ml={-1}>
@@ -73,7 +73,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },
@@ -92,7 +92,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },
@@ -111,7 +111,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },
@@ -130,7 +130,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },
@@ -149,7 +149,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },
@@ -168,7 +168,7 @@ export default function data() {
         ),
         action: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
+            Ver Solicitação
           </MDTypography>
         ),
       },

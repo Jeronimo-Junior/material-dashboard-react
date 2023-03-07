@@ -29,11 +29,11 @@ import DataTable from "examples/Tables/DataTable";
 
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";
-import projectsTableData from "layouts/tables/data/projectsTableData";
+// import projectsTableData from "layouts/tables/data/projectsTableData";
 
 function Tables() {
   const { columns, rows } = authorsTableData();
-  const { columns: pColumns, rows: pRows } = projectsTableData();
+  // const { columns: pColumns, rows: pRows } = projectsTableData();
 
   return (
     <DashboardLayout>
@@ -53,7 +53,7 @@ function Tables() {
                 coloredShadow="info"
               >
                 <MDTypography variant="h6" color="white">
-                  Authors Table
+                  Validação de Lojas
                 </MDTypography>
               </MDBox>
               <MDBox pt={3}>
@@ -68,7 +68,7 @@ function Tables() {
             </Card>
           </Grid>
           <Grid item xs={12}>
-            <Card>
+            {/* <Card>
               <MDBox
                 mx={2}
                 mt={-3}
@@ -92,7 +92,7 @@ function Tables() {
                   noEndBorder
                 />
               </MDBox>
-            </Card>
+            </Card> */}
           </Grid>
         </Grid>
       </MDBox>
